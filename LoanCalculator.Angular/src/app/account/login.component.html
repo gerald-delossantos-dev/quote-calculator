@@ -1,0 +1,71 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card" style="width: 25rem;">
+                <h4 class="card-header">Quote Calculator</h4>
+                <div class="card-body">
+                    <form [formGroup]="formCalculate" (ngSubmit)="onSubmitCalculate()">
+                        <div class="form-group">
+                            <div class="col-sm custom-slider">
+                                <ng5-slider [(value)]="loanAmount" [(highValue)]="highValue" [options]="options"></ng5-slider>
+                                <div class="slider-label">How much do you need?</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Title">Title</label>
+                            <select formControlName="customerTitle" (change)="changeCustomerTitle($event)" [ngClass]="{ 'is-invalid': calculated && formCalculateFields.customerTitle.errors }">
+                                <option *ngFor="let title of customerTitles">{{title}}</option>
+                            </select>
+                            <div *ngIf="calculated && formCalculateFields.customerTitle.errors" class="invalid-feedback">
+                                <div *ngIf="formCalculateFields.customerTitle.errors.required">Term is required</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Term">Term</label>
+                            <input type="text" formControlName="term" class="form-control" [ngClass]="{ 'is-invalid': calculated && formCalculateFields.term.errors }" />
+                            <div *ngIf="calculated && formCalculateFields.term.errors" class="invalid-feedback">
+                                <div *ngIf="formCalculateFields.term.errors.required">Term is required</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button [disabled]="loading" class="btn btn-success">
+                                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                                Calculate
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card" style="width: 20rem;">
+                <h4 class="card-header">Customer Login</h4>
+                <div class="card-body">
+                    <form [formGroup]="formLogin" (ngSubmit)="onSubmitLogin()">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && formLoginFields.username.errors }" />
+                            <div *ngIf="submitted && formLoginFields.username.errors" class="invalid-feedback">
+                                <div *ngIf="formLoginFields.username.errors.required">Username is required</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && formLoginFields.password.errors }" />
+                            <div *ngIf="submitted && formLoginFields.password.errors" class="invalid-feedback">
+                                <div *ngIf="formLoginFields.password.errors.required">Password is required</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button [disabled]="loading" class="btn btn-success">
+                                <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                                Login
+                            </button>
+                            <a routerLink="../register" class="btn btn-link">Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

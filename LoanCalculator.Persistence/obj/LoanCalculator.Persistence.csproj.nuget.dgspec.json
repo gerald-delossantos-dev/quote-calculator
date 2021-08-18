@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Persistence\\LoanCalculator.Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\LoanCalculator.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\LoanCalculator.Common.csproj",
+        "projectName": "LoanCalculator.Common",
+        "projectPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\LoanCalculator.Common.csproj",
+        "packagesPath": "C:\\Users\\geral2511\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geral2511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Persistence\\LoanCalculator.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Persistence\\LoanCalculator.Persistence.csproj",
+        "projectName": "LoanCalculator.Persistence",
+        "projectPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Persistence\\LoanCalculator.Persistence.csproj",
+        "packagesPath": "C:\\Users\\geral2511\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geral2511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\LoanCalculator.Common.csproj": {
+                "projectPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculator.Common\\LoanCalculator.Common.csproj"
+              },
+              "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\LoanCalculator.Core.csproj": {
+                "projectPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\LoanCalculator.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\LoanCalculator.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\LoanCalculator.Core.csproj",
+        "projectName": "LoanCalculator.Core",
+        "projectPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\LoanCalculator.Core.csproj",
+        "packagesPath": "C:\\Users\\geral2511\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\repos\\miniApp\\LoanCalculatorApp\\LoanCalculatorApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geral2511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

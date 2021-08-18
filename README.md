@@ -1,2 +1,2 @@
 # quote-calculator
-Quote Calculator
+Phase 1 Exam

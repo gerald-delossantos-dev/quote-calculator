@@ -1,0 +1,109 @@
+﻿@model LoanCalculator.Web.Model.QuoteModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+            table th {
+                background-color: #B8DBFD;
+                color: #333;
+                font-weight: bold;
+            }
+
+            table th, table td {
+                padding: 5px;
+                border: 1px solid #ccc;
+            }
+
+            table, table table td {
+                border: 0px solid #ccc;
+            }
+
+        input[type=text], select {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Person Details</th>
+            </tr>
+            <tr>
+                <td>Loan Amount: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.LoanAmount)
+                </td>
+            </tr>
+            <tr>
+                <td>Title: </td>
+                <td>
+                    @Html.DropDownListFor(m => m.Title, new List<SelectListItem>
+                   { new SelectListItem{Text="Mr.", Value="Mr."},
+                     new SelectListItem{Text="Ms.", Value="Ms."},
+                     new SelectListItem{Text="Mrs.", Value="Mrs."}}, "Please select")
+                </td>
+            </tr>
+            <tr>
+                <td>First Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Mobile)
+                </td>
+            </tr>
+            <tr>
+                <td>Terms: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Terms)
+                </td>
+            </tr>
+            <tr>
+                <td>InterestRate: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.InterestRate)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

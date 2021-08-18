@@ -1,0 +1,15 @@
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\LoanCalculator.Infrastructure.deps.json
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\LoanCalculator.Infrastructure.dll
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\ref\LoanCalculator.Infrastructure.dll
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\LoanCalculator.Infrastructure.pdb
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\LoanCalculator.Core.dll
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\bin\Debug\net5.0\LoanCalculator.Core.pdb
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.csproj.AssemblyReference.cache
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.AssemblyInfoInputs.cache
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.AssemblyInfo.cs
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.csproj.CoreCompileInputs.cache
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.csproj.CopyComplete
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.dll
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\ref\LoanCalculator.Infrastructure.dll
+C:\source\repos\miniApp\LoanCalculatorApp\LoanCalculator.Infrastructure\obj\Debug\net5.0\LoanCalculator.Infrastructure.pdb

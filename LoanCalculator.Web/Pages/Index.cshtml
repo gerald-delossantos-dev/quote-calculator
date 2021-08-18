@@ -1,0 +1,70 @@
+﻿@page
+@model Model.QuoteModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Person Details</th>
+            </tr>
+            <tr>
+                <td>Loan Amount: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.LoanAmount)
+                </td>
+            </tr>
+            <tr>
+                <td>Title: </td>
+                <td>
+                    @Html.DropDownListFor(m => m.Title, new List<SelectListItem>
+                   { new SelectListItem{Text="Mr.", Value="Mr."},
+                     new SelectListItem{Text="Ms.", Value="Ms."},
+                     new SelectListItem{Text="Mrs.", Value="Mrs."}}, "Please select")
+                </td>
+            </tr>
+            <tr>
+                <td>First Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Mobile)
+                </td>
+            </tr>
+            <tr>
+                <td>Terms: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Terms)
+                </td>
+            </tr>
+            <tr>
+                <td>InterestRate: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.InterestRate)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+     </form>
+</div>
